@@ -1,0 +1,14 @@
+*{margin: 0px;
+padding: 0px;}
+body{background-color: rgb(100, 109, 100);}
+h1{font-size: 3rem;
+    text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+#box{
+    max-width: 700px;
+    height: 500px;
+    border:2px solid cyan;
+    margin: 0px auto;
+    background-color:greenyellow
+    ;
+}
