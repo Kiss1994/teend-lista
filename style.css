@@ -1,26 +1,36 @@
 *{margin: 0px;
 padding: 0px;}
-body{background-color: rgb(100, 109, 100);}
+body{ display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 50px;;
+}
 h1{font-size: 3rem;
     text-align: center;
-font-family: 'Merriweather', serif
+font-family: 'Merriweather', serif;
+margin-top: 10px;
 ;
 text-shadow: rgb(17, 91, 49) 2px 2px 1px;}
 #box{
-    max-width: 700px;
-    height: 500px;
-    border:2px solid cyan;
-    margin: 0px auto;
-    background-color: rgba(24, 129, 20, 0.2);
-    
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  background-color: dimgray;
+  border: 2px solid black;
+
 }
-input{}
+input:hover{background-color: #45a049;}
+button:hover{background-color: gold;
+color: black;}
 
 input, button {
   padding: 10px;
   border: 1px solid blue;
   border-radius: 5px;
  margin-left: 20px;
+
 
 }
 
