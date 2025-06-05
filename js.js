@@ -14,3 +14,17 @@ hat.addEventListener("click", function() {
     box.style.backgroundColor = "gray";      // egyébként szürke
   }
 });
+const input = document.getElementById("new-task");
+const button =document.getElementById("add-button");
+const list = document.getElementById("task-list");
+  button.addEventListener("click",function(){
+    const szoveg = input.value.trim();
+    if (szoveg !== "") {
+    const ujElem = document.createElement("li");
+    ujElem.textContent = szoveg;
+    list.appendChild(ujElem);
+    input.value = ""; // törli a mezőt hozzáadás után
+  } else {
+    alert("Írj be valamit a mezőbe!");
+  }
+  })
